@@ -20,6 +20,7 @@ class Module7 extends Module {
     unset($component_data_definition['phpunit_tests']);
     unset($component_data_definition['tests']['description']);
     unset($component_data_definition['config_entity_types']);
+    unset($component_data_definition['drush_commands']);
 
     // TODO: implement these for D7.
     unset($component_data_definition['content_entity_types']);

@@ -350,6 +350,13 @@ class Module extends RootComponent {
         'format' => 'boolean',
         'component_type' => 'Tests',
       ),
+      'drush_commands' => [
+        'label' => "Drush commands",
+        'description' => "Drush 9 commands for this module to provide.",
+        'required' => FALSE,
+        'format' => 'compound',
+        'component_type' => 'DrushCommand',
+      ],
 
       // The following defaults are for ease of developing.
       // Uncomment them to reduce the amount of typing needed for testing.
